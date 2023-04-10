@@ -36,11 +36,9 @@ After building the executable, try an example:
 
 The following options are supported:
 ```
--it           Sets a maximum number of iterations without improvement. Defaults to 20,000
 -t            Sets a time limit in seconds. If this parameter is set, the code will be restart iteratively until the time limit
--bks          Sets an optional path to a BKS in CVRPLib format. This file will be overwritten in case of improvement 
 -seed         Sets a fixed seed. Defaults to 0     
--veh          Sets a prescribed fleet size. Otherwise a reasonable UB on the fleet size is calculated       
+
 ```
 
 There exist different conventions regarding distance calculations in the academic literature.
